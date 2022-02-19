@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Kanban board</h1>
+    <button class="createboard">Создать доску</button>
+    <section class="board_zone">
+        <section class="board">
+            <h2 class="card_title">To do</h2>
+            <section class="card_zone">
+
+                <button class="createCard">CreateCard</button>
+
+                <div class="card" draggable="true">
+                    <h2 class="card_title">Название карточки-1</h2>
+                    <p class="card_text">Текст карточки</p>
+                </div>
+                <div class="card" draggable="true">
+                    <h2 class="card_title">
+                        Название карточки-2
+                    </h2>
+                    <p class="card_text">
+                        Текст карточки
+                    </p>
+                </div>
+                <div class="card" draggable="true">
+                    <h2 class="card_title">
+                        Название карточки-3
+                    </h2>
+                    <p class="card_text">
+                        Текст карточки
+                    </p>
+                </div>
+                <div class="card" draggable="true">
+                    <h2 class="card_title">
+                        Название карточки-4
+                    </h2>
+                    <p class="card_text">
+                        Текст карточки
+                    </p>
+                </div>
+            </section>
+        </section>
+        <section class="board">
+            <h2 class="card_title">2</h2>
+            <section class="card_zone"></section>
+        </section>
+        <section class="board">
+            <h2 class="card_title">3</h2>
+            <section class="card_zone"></section>
+        </section>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
